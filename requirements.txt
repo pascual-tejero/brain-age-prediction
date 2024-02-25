@@ -1,0 +1,11 @@
+numpy
+tqdm
+pandas
+matplotlib
+seaborn
+nibabel
+scikit-image
+torch>=1.7.1
+torchvision>=0.8.2
+scikit-learn
+tensorboard
