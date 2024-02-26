@@ -23,8 +23,10 @@ We explore two different supervised learning approaches for age regression:
   - Cross-Validation and Evaluation: Subsequently, we conduct cross-validation for each model, partitioning the dataset into five folds. During each iteration, the model is trained on four folds and evaluated on the remaining fold. Mean Squared Error (MSE) is computed as the evaluation metric, providing insights into the model's predictive accuracy.
   - Performance Analysis: We report the mean accuracy and standard deviation of MSE for each model across the folds. This analysis offers a comprehensive view of the models' performance and enables us to compare their effectiveness in predicting age from brain MRI data.
 
-2. Image-based regression using CNNs: This second approach aims to build a CNN and regress the age from brain MRIs directly. The results on test data can be seen here:
+2. Image-based regression using CNNs: In this second approach, we employ Convolutional Neural Networks (CNNs) to directly regress age from brain MRIs. The visualization below depicts the results on test data, with red representing the true age and blue indicating the predicted age.
 ![Brain age regression on test data](https://github.com/pascutc98/brain-age-prediction/blob/main/results/age_regression_cnn/plot_results.png)
+This CNN-based method offers an alternative approach to age regression, leveraging the power of deep learning models to directly analyze image data and predict age.
+
 
 
 
@@ -49,8 +51,13 @@ pip install -r requirements.txt
 
 4. Run the different Python scripts:
 ```bash
+# Data familiarisation on MRI data
 python data_familiarisation.py
+
+# Feature-based linear brain age regression using brain structure segmentation
 python age_regression_seg_features.py
+
+# Image-based brain age regression using CNNs
 python age_regression_cnn.py
 ```
 
