@@ -160,3 +160,8 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+#! wget https://www.dropbox.com/s/w9njau9t6rrheel/brainage-data.zip
+#! unzip brainage-data.zip
+#! wget https://www.dropbox.com/s/f5mt8p9pkszff3x/brainage-testdata.zip
+#! unzip brainage-testdata.zip
