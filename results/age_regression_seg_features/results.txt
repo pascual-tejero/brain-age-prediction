@@ -1,0 +1,5 @@
+114.66150439700195 accuracy with a standard deviation of 51.3241043221376 for the model Lasso()
+114.66059212222015 accuracy with a standard deviation of 51.32206456622851 for the model Ridge(alpha=0.5)
+4.8578655976327766e+38 accuracy with a standard deviation of 4.2786846871578856e+38 for the model SGDRegressor()
+116.96505782630591 accuracy with a standard deviation of 55.3201985414839 for the model ElasticNetCV()
+114.67301622911745 accuracy with a standard deviation of 51.435807927073505 for the model BayesianRidge()

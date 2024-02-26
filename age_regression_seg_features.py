@@ -62,6 +62,13 @@ def main():
     print(score5, "\n")
     print("="*120)
 
+    with open('./results/age_regression_seg_features/results.txt', 'w') as f:
+        f.write(f"{score1.mean()} accuracy with a standard deviation of {score1.std()} for the model {model1}\n")
+        f.write(f"{score2.mean()} accuracy with a standard deviation of {score2.std()} for the model {model2}\n")
+        f.write(f"{score3.mean()} accuracy with a standard deviation of {score3.std()} for the model {model3}\n")
+        f.write(f"{score4.mean()} accuracy with a standard deviation of {score4.std()} for the model {model4}\n")
+        f.write(f"{score5.mean()} accuracy with a standard deviation of {score5.std()} for the model {model5}\n")
+
 def cross_validation(model, X, y, folds = 5):
     """Cross validation function"""
     scoring_method1 = make_scorer(mean_squared_error)
