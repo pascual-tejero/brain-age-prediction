@@ -16,9 +16,23 @@ We explore two different supervised learning approaches for age regression:
 
 ## Instructions 
 
-1. Clone this repository to your local machine.
+1. Clone this repository to your local machine:
+```bash
+git clone https://github.com/pascutc98/brain-age-prediction/tree/main
+cd brain-age-prediction
+```
+
 2. Create and activate a conda environment:
+```bash
+conda create -n img_class python=3.8
+conda activate img_class
+```
+
 3. Install the required dependencies by using the provided requirements.txt file:
+```bash
+pip install -r requierements.txt
+```
+
 4. Run the different Python scripts:
 
 ## Conclusion
