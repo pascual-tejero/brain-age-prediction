@@ -26,6 +26,7 @@ We explore two different supervised learning approaches for age regression:
 
 
 2. **Image-based brain age regression using CNNs**: In this second approach, we employ Convolutional Neural Networks (CNNs) to directly regress age from brain MRIs. The visualization below depicts the results on test data, with red representing the true age and blue indicating the predicted age.
+3. 
 ![Brain age regression on test data](https://github.com/pascutc98/brain-age-prediction/blob/main/results/age_regression_cnn/plot_results.png)
 
 This CNN-based method offers an alternative approach to age regression, leveraging the power of deep learning models to directly analyze image data and predict age.
