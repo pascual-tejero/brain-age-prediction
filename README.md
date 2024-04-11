@@ -4,7 +4,7 @@ This repository contains the practical task project for the course of AI in Medi
 
 ## Project Overview
 
-In this project, we aim to predict the age of individuals based on their brain MRI scans. We are provided with a dataset comprising 652 brain MRIs, each accompanied by the corresponding age of the subject. The ultimate goal is to develop and compare the performance of two supervised learning models for age regression.
+In this project, we aim to predict the age of individuals based on their brain Magnectic Resonance Imaging (MRI) scans. We are provided with a dataset comprising 652 brain MRIs, each accompanied by the corresponding age of the subject. The ultimate goal is to develop and compare the performance of two supervised learning models for age regression.
 
 ## Dataset
 
